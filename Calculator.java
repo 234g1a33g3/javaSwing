@@ -126,7 +126,7 @@ public class Calculator implements ActionListener {
         }
         if (e.getSource() == equButton) {
             String input = textfield.getText();
-            if (input.equals("23")) {
+            if (input.equals("18")) {
                 textfield.setText("SHIVA REDDY");
             } else {
                 num2 = Double.parseDouble(input);
